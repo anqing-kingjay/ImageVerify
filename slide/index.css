@@ -1,0 +1,207 @@
+.Trigger_slider {
+	width: 310px;
+	height: 306px;
+	box-shadow: 0px 0px 6px 0px #495060;
+	border-radius: 4px;
+	border: solid 1px #dddee1;
+	position: absolute;
+	top: -140px;
+	left: 70px;
+	background: white;
+	display: none;
+}
+
+body > .Trigger_slider{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+body > .Trigger_slider .validate_oGuide{
+	background:none;
+}
+
+body.modal{
+	background:rgba(0,0,0,.7);
+}
+
+.validate_main {
+	position: relative;
+	width: 280px;
+	height: 160px;
+	background-color: #e8e8e8;
+	margin: 16px;
+}
+.validate_block {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left:0;
+}
+.validate_time{
+	width: 100%;
+	background: #1FCA74;
+	/*#F44336*/
+	height: 24px;
+	position: absolute;
+	color: #FFFFFF;
+	bottom: 0;
+	opacity:0.8;  
+	line-height: 24px;
+	display: none;
+	font-size:12px;
+}
+
+.validate_oGuide{
+	position: absolute;
+	height: 25px;
+	width: 16px;
+    background: url(./icon.png) no-repeat scroll 0 -25px;
+    left: -12px;
+    top:50%;
+}
+.validate_load{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	text-align: center;
+	line-height: 160px;
+	background: #FFFFFF;
+	border: 1px solid #dddee1;
+	font-size: 14px;
+	color: #495060;
+}
+.validate_box {
+	/*验证盒子*/
+	height: 36px;
+	line-height: 36px;
+	width: 280px;
+	background: url(./icon.png) no-repeat scroll -780px 0;
+	position: relative;
+	text-align: center;
+	margin: 10px;
+	margin-top: 22px;
+}
+.validate_progress{
+	height: 36px;
+	line-height: 36px;
+	background: url(./icon.png) no-repeat scroll -500px 0;
+	position: absolute;
+	top: 0;
+	
+}
+.validate_button {
+	width: 60px;
+	height: 60px;
+	background: url(./icon.png) no-repeat scroll -440px 0;
+	position: absolute;
+	left: 0;
+	top: -12px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.validate_button:hover {
+	background-position: -320px 0;
+}
+.validate_button_false {
+	background-position: -260px 0;
+}
+.validate_box .validate_button_drag {
+	background-position: -200px 0;
+}
+.validate_prompt{
+	font-size: 14px;
+	margin-left: 50px;
+}
+.validate_underline{
+	height: 1px;
+	width: 280px;
+	margin: 10px;
+    margin-top: 22px;
+    background-color: #dddee1;
+    border: 0;
+}
+.validate_refresh{
+	position: relative;
+	margin: 10px;
+	width: 280px;
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	
+}
+
+.validate_refresh_box{
+	position: relative;
+	height: 20px;
+	width: 60px;
+	cursor: pointer;
+}
+.validate_refresh_box:hover .validate_icon{
+	background-position:-40px 0 ;
+}
+.validate_refresh_box:hover{
+	color: #0079cc;
+}
+.validate_icon{
+	height: 20px;
+	width: 20px;
+	background: url(./icon.png)  no-repeat scroll -120px 0;
+	position: absolute;
+	top: 0;
+}
+.validate_refresh_content{
+	position: absolute;
+	font-size: 14px;
+	left: 25px;
+}
+.validate_content{
+	position: absolute;
+	right: 0;
+	top: 2px;
+	font-size: 12px;
+	color: #dddee1;
+	line-height: 20px;
+}
+
+.Trigger_slider_box{
+	margin-left: 200px;
+	margin-top: 200px;
+	
+
+}
+.Trigger_slider_button{
+	
+	border: 1px solid #dddee1;
+	border-radius: 4px;
+}
+.Trigger_slider_button:hover{
+	border: 1px solid #0079cc;
+}
+
+.Trigger_slider_icon{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top:-10px;
+	height: 20px;
+	width: 20px;
+	background: url(./icon.png)  no-repeat scroll -20px 0;
+	cursor: pointer;
+}
+.Trigger_slider_logo{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	margin-top:-10px;
+	height: 20px;
+	width: 20px;
+	background: url(./icon.png)  no-repeat scroll;
+}
